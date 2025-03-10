@@ -1,4 +1,4 @@
-(defproject org.clojars.huahaiy/clojure-plus "1.1.1"
+(defproject org.clojars.huahaiy/clojure-plus "1.1.2"
   :description "A collection of utilities that improve Clojure experience"
   :license     {:name "MIT" :url "https://github.com/tonsky/clojure-plus/blob/master/LICENSE"}
   :url         "https://github.com/tonsky/clojure-plus"

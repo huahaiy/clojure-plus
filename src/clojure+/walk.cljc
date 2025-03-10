@@ -107,7 +107,7 @@
     (list? form)
     (outer
       (let [res (reduce
-                  (fn [idx el]
+                  (fn [^long idx el]
                     (let [el' (inner el)]
                       (if (identical? el' el)
                         (inc idx)
@@ -133,7 +133,7 @@
     (seq? form)
     (outer
       (let [res (reduce
-                  (fn [idx el]
+                  (fn [^long idx el]
                     (let [el' (inner el)]
                       (if (identical? el' el)
                         (inc idx)
@@ -149,7 +149,7 @@
     (outer
       (let [seq (seq form)
             res (reduce
-                  (fn [idx el]
+                  (fn [^long idx el]
                     (let [el' (inner el)]
                       (if (identical? el' el)
                         (inc idx)
